@@ -117,7 +117,7 @@ x.(Type)
 
 ### defer
 具体见[这篇文章](https://www.jianshu.com/p/79c029c0bd58)
-
+defer、return、返回值三者的执行是：return最先执行，先将结果写入返回值中（即赋值）；接着defer开始执行一些收尾工作；最后函数携带当前返回值退出（即返回值）。
 
 ### 测试
 go test命令是一个按照一定的约定和组织来测试代码的程序。以_test.go为后缀名的源文件在执行go build时不会被构建成包的一部分，它们是go test测试的一部分。  
