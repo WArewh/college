@@ -1,5 +1,5 @@
 # 实验说明
-实现简易的终端交互的文件系统
+操作系统实验实现简易的终端交互的文件系统
 
 # 文件系统注意事项
 ## 运行
@@ -21,6 +21,3 @@
 用法:rf filename position content 
 - wf:write file写文件  
 用法:wf filename position length
-
-## 声明
-由于完成的比较仓促，如有bug敬请谅解
